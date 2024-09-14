@@ -32,6 +32,15 @@ To achieve dependability, maintainability, and user happiness, high-quality soft
 
 ## 3. Outline a standard high level structure for a MERN stack application and explain the components
 
+The MERN stack is a popular technology stack for building web applications. It includes MongoDB, a NoSQL database that stores data in a flexible, JSON-like format, allowing for easy scalability and efficient data management. Express.js is a web application framework for Node.js that simplifies creating server-side applications and APIs, offering robust features and middleware support. React, a front-end library developed by Facebook, is used to build dynamic, user-friendly interfaces with reusable UI components and efficient state management. Node.js provides the server-side environment for running JavaScript code, enabling the development of scalable network applications. Together, these technologies allow developers to use JavaScript across both the client and server sides, streamlining development and improving integration.
+
+- **MongoDB** - MongoDB is a NoSQL database that stores information in BSON (Binary JSON), a versatile format like JSON. It use collections of documents rather than tables, in contrast to conventional relational databases, enabling dynamic schema construction. Because of its adaptability, MongoDB works effectively with massive amounts of unstructured or semi-structured data. Its strong query capabilities, indexing, and scalability make it a popular option for contemporary applications that need to store and retrieve data quickly and effectively.
+
+- **Epress.JS** - Server-side apps and APIs can be developed more easily with Express.js, a Node.js framework for lightweight web applications. It offers a comprehensive feature set for managing sessions, routeing, middleware integration, and HTTP requests and responses. Express.js is a well-liked option for developing RESTful APIs and dynamic web apps because it enables developers to create scalable and maintainable server applications with less setup and configuration.
+
+- **React** - Facebook created the JavaScript package React to help developers create user interfaces, especially for single-page applications. It makes it simpler to design and manage intricate, dynamic interfaces by enabling developers to create reusable user interface components that are capable of managing their own state. React uses a virtual DOM to efficiently update and render components in response to data changes, improving user experience and efficiency. It is a well-liked option for contemporary web development because of its robust ecosystem and component-based architecture.
+
+
 
 ## 4. A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
 
