@@ -40,6 +40,8 @@ The MERN stack is a popular technology stack for building web applications. It i
 
 - **React** - Facebook created the JavaScript package React to help developers create user interfaces, especially for single-page applications. It makes it simpler to design and manage intricate, dynamic interfaces by enabling developers to create reusable user interface components that are capable of managing their own state. React uses a virtual DOM to efficiently update and render components in response to data changes, improving user experience and efficiency. It is a well-liked option for contemporary web development because of its robust ecosystem and component-based architecture.
 
+- **Node.js** - Developers can run JavaScript on the server side with Node.js, a JavaScript runtime built on top of Chrome's V8 engine. Because of its event-driven, non-blocking architecture, it makes it possible to create network applications that are both scalable and high-performing. Because of its vast package ecosystem, which is controlled by npm (Node Package Manager), Node.js is especially well-suited for developing real-time applications like chat apps or live streaming services. This makes it easier to integrate different features and libraries.
+
 
 
 ## 4. A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
@@ -64,4 +66,87 @@ Because they have a direct impact on user happiness, engagement, and retention, 
 
 ## 5. With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges
 
+
+For my web portfolio project as part of the CA curriculum, I was required to have a deep understanding of HTML and CSS principles. In addition to these technical skills, some additional soft skills were required such as problem solving, resilience and organisation. 
+
+The standard language for creating and organising material on the web is HTML, or HyperText Markup Language. It uses features like headings, paragraphs, links, images, and forms to determine how web pages should be laid out. All web content is built on HTML, which enables browsers to present text, multimedia, and interactive features in an organised manner. It is necessary to create the basic framework of web pages, which JavaScript and CSS may subsequently design and make interactive. This was the baseline necessary for me to display information about myself, my projects, aspirations and contact details whe developing my webpage. At the time, I wasn't skilled in Javascript and so I resorted to CSS to implement design aspects to my webpage. 
+
+A stylesheet language called CSS (Cascading Style Sheets) is used to manage how web pages look and are laid out. By defining styles for things like colours, fonts, spacing, and positioning, it specifies how HTML components should be rendered. With CSS, developers can create designs that are both aesthetically pleasing and consistent across various web pages. Additionally, it facilitates responsive design, which enables websites to adjust to different screen sizes and gadgets. In my project, I utilised CSS in creative ways to implement design and function parameters to my webpage to make it more appealing, user friendly and accessible. 
+
+As my knowledge of these technical principles was limited at the time, it was very important for me to be able to troubleshoot and use external resources to problem solve and improve upon my skills. This required a lot of googling, accessing external web sources or even web tutorials online to answer specific questions to problems I was having at the time. This could be about formatting, positioning of elements on screen, different font/colour types or dynamic functionality. Being able to identify a problem and effectively use the resources available to me to resolve these issues was one of the most valuable skills when developing my project and pushing myself to create something beyond my capabilities at the time. 
+
+This also came with a lot of setbacks and trial and error to get things working as expected. As such, resilience is also another key skill when trying something new as it is easy to give up or just create an MVP. However, I ensured that I pushed on until I developed a website that was reflective of my original vision and well within the parameters of what I knew was possible. 
+
+Lastly, setting off onto a new project comes with it's own set of challenges and understanding what needs to be done and the time left to do it is important to ensuring we meet deadlines. Having good organisational skills and setting out a plan/design early on the development allowed me to properly visualise the workload remaining, estimate how much time I would need and ensure that fit within the schedule and kept me on track. As such, my project was delivered in full and on time. 
+
+## 6. With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project, and suggest changes or improvements for future projects of a similar nature
+
+In respect to my terminal application using python, I required extensive programming knowledge and understanding of python features as well as again utilising soft skills similar to the web development project such as problem solving, organisation and resilience. I created a terminal application which was a text based fighting game which would allow users to create a fighter, upgrade a fighter and participate in a series of matches against CPU opponents who had their on randomised actions. 
+
+This was a large project for me and I wanted to push myself to create something vastly different to what we learned in class. We explored concepts of functions, variables and classes and I tried to understand how to implement those in different ways to essentially create characters, menu's and simulators for battling and upgrading. Whilst my knowledge was close to suficient as I could create most of these elements using classes, functions and variables, there were certain aspects which I needed to research to develop. These were largely the CPU functions and how to randomise terminal responses to specific actions and inputs from the user. This required a lot of research on the best ways to implement these functions and randomise interactions. 
+
+Overall, this project was achievable within the time constraint and I was proud of what I accomplished. Upon review, some suggestions I have for future projects would be this:
+
+- Allowing myself more time at the end of a project to review the code and made minor changes to ensure it is D.R.Y and as efficient as possible. I found that I completed my project very close to deadline and didn't have enough time to really review the code and ensure I kept within the coding principles that I wanted which was PEP8. Whilst I largely did this as I went along, there were areas I missed and wasn't able to fix. 
+- Before jumping into the coding aspect, really plan out the different elements and understand where the overlaps are to ensure I am not repeating myself anywhere. My battle simulator ended up being a very large chunk of code which in practise could have been condensed to re-use certain elements by developing additional functions outside of the sim and just calling on them when necessary. This would have made for a cleaner and more efficient code base and program. 
+- Getting more user testing to ensure I have covered all error aspects and handled these elegantly. Whilst I did have a couple of users test my program prior to completion, I did still feel a little bit anxious that there were things that I had missed. Needing to have more user testing to ensure no surprises is a takeaway from this prject. 
+
+## 7. Explain control flow, using an example from the JavaScript programming language
+
+
+
+## 8. Explain type coercion, using examples from the JavaScript programming language
+
+
+
+## 9. Explain data types, using examples from the JavaScript programming language
+
+Within Javascript there are both primitive and non-primitive data types. Below are some examples:
+
+### Primitive Data Types
+
+- **String** - A string represents text and is enclosed in single (') or double (") quotes.<br>
+![String](./docs/string.png)
+
+- **Number** - The Number type represents both integer and floating-point numbers. <br>
+![number](./docs/number.png)
+
+- **Boolean** - A boolean can have one of two values: true or false. It's often used for conditional logic. <br>
+![boolean](./docs/boolean.png)
+
+### Non-primitive data types
+
+- **Object** - An Object is a collection of key-value pairs, where keys are strings (or symbols) and values can be any data type.<br>
+![object](./docs/object.png)
+
+- **Array** - An Array is a special kind of object used to store ordered lists of values, which can be of any data type. <br>
+![array](./docs/array.png)
+
+- **Function** - A Function is an object that can be executed. It’s used to perform actions or return values. <br>
+![function](./docs/function.png)
+
+
+## 10. Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
+
+Arrays can be manipulated in multiple ways some of which include adding elements, removing elements, modifying elements, sorting elements. 
+
+- **Adding elements** - Push() adds one or more elements to the end of an array <br>
+![add](./docs/add.png)
+
+- **Removing elements** - Pop() removes the last element in an array <br>
+![remove](./docs/pop.png)
+
+- **Modifying elements** - splice() adds/removes elements at a spcific index. <br>
+![splice](./docs/splice.png)
+
+- **Sorting elements** - sort() sorts elements in an array. <br>
+![sort](./docs/sort.png)
+
+
+
+## 11. Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
+
+
+
+## 12. Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
 
