@@ -93,10 +93,29 @@ Overall, this project was achievable within the time constraint and I was proud 
 
 ## 7. Explain control flow, using an example from the JavaScript programming language
 
+In JavaScript, "control flow" refers to the sequence in which the code is run in response to loops, conditions, and other instructions that manage the program's flow. Although control structures like conditionals, loops, and functions can change the order in which code is processed, code is typically performed top to bottom.
 
+![control flow](./docs/flow.png) <br>
+
+The above code uses an if statement which can change the order in which code is processed. Typically, code will be executed from top to bottom however in the above instance, the order will be as follows:
+
+- The program will check the value of age
+- If the condition is true, the first bloc of code will execute "you are over 18"
+- If the condition is false, then the code block will skip and instead the code within the else block will execute "you are under 18"
+
+This shows how control flow can change based on different conditions. It will skip code blocks that do not adhere to the conditions and only execute the appropriate block of code. This can also be handled using loops such as for loops and while loops. 
 
 ## 8. Explain type coercion, using examples from the JavaScript programming language
 
+In JavaScript, the term "type coercion" describes the implicit or automatic conversion of values between different data types. When JavaScript comes across an operation that involves mixed data types, such changing a string to a number or an integer to a boolean, it can execute type coercion. JavaScript may operate on mixed data types by implicitly or explicitly transforming them to the correct type through the use of type coercion. This can make the language more flexible, but if it's not understood correctly, it might also result in unexpected behaviour.
+
+As example of string to number coercion is below:
+
+![string coercion](./docs/coercion.png)
+
+In the above example, Javascript converts the string "6" to a number so that it can substract 3, resulting in a number 3. 
+
+Javascript can also perform number to string coercion and boolean coercion.
 
 
 ## 9. Explain data types, using examples from the JavaScript programming language

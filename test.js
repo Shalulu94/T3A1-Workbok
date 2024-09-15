@@ -41,3 +41,15 @@ function greet() {
     return "hello";
 }
 
+
+let age = 18;
+
+if (age >= 18) {
+    console.log("you are over 18");
+} else {
+    console.log("you are under 18");
+}
+
+let result = "6" - 3;
+console.log(result); // Output 3
+
